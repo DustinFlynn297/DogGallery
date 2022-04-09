@@ -1,0 +1,43 @@
+#js_gallery {
+    display: flex;
+    padding: 2px;
+    flex-wrap: wrap;
+  };
+
+  #js_loading {
+      font-size: 30px;
+      color: black;
+      text-align: center;
+  }
+
+  
+  .js_img{
+    opacity: 1;    
+    margin: 2px;
+    width: 30vh;
+    height: 30vh;
+  }
+
+  #js_gallery:hover .js_img {
+      opacity: 1;
+  }
+
+  .bottom_left {
+    transition: .2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 92%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+    /* text-align: center; */
+  }
+
+  #js_gallery:hover .bottom_left {
+      opacity: 1;
+  }
+
+  .js_name {
+    color: white;
+    font-size: 16px;
+  }
